@@ -1,0 +1,107 @@
+/*content 开始*/
+#content{
+	padding-top: 88px;
+	overflow: hidden;
+}
+#content img{
+	width: 960px;
+}
+#title{
+	color: #7c7c7c;
+	font-weight: 400;
+	font-size: 24.5px;
+	margin: 15px 0;
+}
+#message-box{
+	overflow: hidden;
+}
+.message{
+	width: 554px;
+	float: left;
+}
+.message input{
+	width: 258px;
+	height: 20px;
+	color: #A7A7A7;
+	border: 1px solid #efefef;
+	padding: 4px 6px;
+    margin-bottom: 10px;
+	line-height: 20px;
+	outline: none;
+}
+.message input:first-child{
+	margin-right: 6px;
+}
+.message textarea{
+	width: 540px;
+	height: 100px;
+	padding: 4px 6px;
+	margin-bottom: 10px;
+	color: #A7A7A7;
+	border: 1px solid #efefef;
+	outline: none;
+}
+.message a{
+	display: block;
+	width: 145px;
+	background: #e5412d;
+	color: #fff;
+	padding: 5px 7px;
+	font-weight: 600;
+	font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+.message .glyphicon{
+	font-size: 15px;
+	color: rgba(255, 255, 255, 0.4);
+	padding-right: 15px;
+	padding-top: 3px; 
+}
+.manager{
+	width: 359px;
+	padding: 15px;
+	border: 1px solid #efefef;
+	background: #424242;
+	color: #fff;
+	float: right;
+}
+.manager h3{
+	font-size: 26px;
+	font-weight: 400;
+	margin-bottom: 5px;
+}
+.manager span{
+	display: block;
+	line-height: 20px;
+}
+.manager span span{
+	cursor: help;
+	float: left;
+}
+.manager span a{
+	color: #fff;
+}
+.manager .find{
+	margin-top: 30px;
+}
+.important{
+	color: #7c7c7c;
+	font-size: 14px;
+	height: 25px;
+	line-height: 25px;
+	margin-bottom: 5px;
+}
+.note{
+	background: #f4f4f4;
+	color: #7c7c7c;
+	padding: 15px;
+	border: 1px solid #efefef;
+	font-size: 12px;
+	margin-bottom: 15px;
+}
+.note a{
+	color: #e5412d;
+	text-decoration: underline;
+}
+/*content 结束*/

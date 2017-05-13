@@ -1,0 +1,254 @@
+/*banner 开始*/
+#banner{
+	height: 356px;
+	background: #1f2123;
+	padding-top: 88px;
+}
+#banner .banner-content{
+	width: 420px;
+	height: 280px;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin-top: -140px;
+	text-align: center;
+}
+#banner .banner-content h1{
+	color: #fff;
+	height: 46px;
+	line-height: 46px;
+	font-size: 27pt;
+}
+#banner .banner-content p{
+	color: #fff;
+	line-height: 25px;
+	text-align: right;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#banner .banner-content a{
+	display: inline-block;
+	color: #fff;
+	padding: 10px;
+	margin-right: 50px;
+}
+#banner .banner-content .check-out{
+	background: #e5412d;
+}
+#banner .banner-content .buy-now{
+	background: #e7e7e7;
+	color: #333333;
+	margin-right: 0;
+}
+/*banner 结束*/
+
+/*awesome 开始*/
+#awesome{
+	height: 100px;
+	background: #f4f4f4;
+	border-bottom: 1px solid #efefef;
+	text-align: center;
+	line-height: 100px;
+}
+#text-primary{
+	font-size: 26px;
+	color: #e5412d;
+	font-weight: bold;
+	font-family: 'Roboto Slab', sans-serif;
+}
+#text-features{
+	color: #4d4d4d;
+	font-size: 26px;
+}
+#hidden-phone{
+	color: #ccc;
+	font-style: italic;
+}
+/*awesome 结束*/
+
+/*lorem 开始*/
+/*#lorem{
+	color: #7c7c7c;
+	background: #f4f4f4;
+	margin: 15px auto;
+	padding: 15px;
+	width: 928px;
+	border: 1px solid #efefef;
+}*/
+/*lorem 结束*/
+
+/*content 开始*/
+#slogan{
+	color: #7c7c7c;
+	background: #f4f4f4;
+	margin: 15px auto;
+	padding: 15px;
+	/*width: 928px;*/
+	border: 1px solid #efefef;
+}
+#features{
+	overflow: hidden;
+}
+#features li{
+	width: 197px;
+	height: 250px;
+	padding: 15px;
+	margin-right: 15px;
+	border: 1px solid #efefef;
+	float: left;
+	text-align: center;
+}
+#features li:last-child{
+	margin-right: 0;
+	width: 196px;
+	float: right;
+}
+#features .glyphicon{
+	font-size: 70px;
+	color: #e2e2e2;
+}
+#features h3{
+	font-family: 'Roboto Slab', sans-serif;
+	font-size: 17.5px;
+	margin: 10px 0 10px;
+	font-weight: 400;
+	color: #4d4d4d;
+}
+#features p{
+	color: #7c7c7c;
+	line-height: normal;
+	margin-bottom: 10px;
+}
+#features a{
+	color: #e5412d;
+}
+#follow-us{
+	height: 137px;
+	width: 928px;
+	background: #f4f4f4;
+	padding: 15px;
+	border: 1px solid #efefef;
+	margin-top: 15px;
+	overflow: hidden;
+	text-align: center;
+}
+#follow-us h3{
+	height: 30px;
+	width: 928px;
+	margin-bottom: 10px;
+	color: #7c7c7c;
+	font-size: 21px;
+	font-weight: 200;
+	line-height: 30px;
+}
+#follow-us li{
+	display: inline-block;
+	padding: 20px 19px 10px;
+}
+#follow-us .glyphicon{
+	color: #e5412d;
+	font-size: 50px;
+	color: #444444;
+}
+#follow-us a span{
+	font-size: 12px;
+}
+#follow-us .selected a{
+	color: #e5412d;
+}
+#follow-us a{
+	line-height: 20px;
+}
+#follow-us a:hover{
+	color: #e5412d;
+}
+#testimonials{
+	/*width: 925px;*/
+	height: 30px;
+	color: #7c7c7c;
+	margin: 15px 0;
+	font-family: 'Roboto Slab', sans-serif;
+	font-size: 24.5px;
+	font-weight: 400;
+}
+#testimonials .glyphicon{
+	font-size: 27px;
+}
+#chat-list{
+	height: 120px;
+}
+#chat-list .chat-item{
+	border: 1px solid #efefef;
+	padding: 15px;
+	width: 440px;
+	height: 73px;
+	margin-bottom: 15px;
+}
+#chat-list .chat-item:nth-child(2n+1){
+	float: left;
+}
+#chat-list .chat-item:nth-child(2n){
+	float: right;
+}
+#chat-list .glyphicon{
+	color: #e2e2e2;
+	font-size: 50px;
+	float: left;
+}
+#chat-list p{
+	color: #7c7c7c;
+	margin-left: 70px;
+	margin-bottom: 15px;
+}
+#chat-list a{
+	color: #e5412d;
+}
+#admin{
+	/*height: 79px;*/
+	font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: #7c7c7c;
+    background: #f4f4f4;
+    padding: 15px;
+    border: 1px solid #efefef;
+    position: relative;
+    margin-bottom: 15px;
+}
+#admin h2,#admin p{
+	width: 614px;
+	margin: 0;
+	text-align: center;
+	display: inline-block;
+}
+#admin h2{
+	font-size: 26px;
+	font-family: 'Roboto Slab', sans-serif;
+    font-weight: 400;
+    color: #4d4d4d;
+    line-height:30px;
+}
+#admin h2 span{
+	color: #e5412d;
+	font-weight: bold;
+}
+#admin a{
+	width: 300px;
+	height: 46px;
+	background: #e5412d;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	margin-top: -23px;
+	text-align: left;
+	float: right;
+	line-height: 46px;
+}
+#admin .glyphicon{
+	color: rgba(255, 255, 255, 0.4);
+	font-size: 30px;
+}
+#admin a span{
+	color: #fff;
+	font-size: 15px;
+}
+/*content 结束*/

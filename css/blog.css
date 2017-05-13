@@ -1,0 +1,177 @@
+/*content 开始*/
+#content{
+	padding-top: 88px;
+	overflow: hidden;
+}
+#title{
+	color: #7c7c7c;
+	font-size: 24.5px;
+	font-weight: 400;
+	padding: 15px 0;
+}
+
+/*左侧侧边栏 开始*/
+.sidebar-box{
+	width: 230px;
+	float: left;
+}
+.list{
+	width: 227px;
+	border: 1px solid #efefef;
+	color: #000;
+	background: #f4f4f4;
+	font-weight: bold;
+}
+.list li{
+	padding: 0 10px;
+    height: 40px;
+    border-bottom: 1px solid #efefef;
+    position: relative;
+    line-height: 39px;
+    text-align: left;
+}
+.list a{
+	color: #000;
+}
+.list li span{
+	background: #7c7c7c;
+	color: #fff;
+	height: 18px;
+	line-height: 18px;
+	padding: 2px 9px;
+	margin-top: 9px;
+	float: right;
+	border-radius: 10px;
+}
+.separator{
+	width: 229px;
+	margin: 25px 0 5px;
+	text-align: center;
+	position: relative;
+}
+.separator::before{
+	content: '';
+	height: 2px;
+	background: #f4f4f4;
+	width: 100%;
+	/*display: block;*/
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -1px;
+}
+.separator .glyphicon{
+	font-size: 40px;
+	color: #7c7c7c;
+	background: #fff;
+	margin: 0 5px;
+}
+.important{
+	width: 133px;
+	color: #7c7c7c;
+	font-size: 14px;
+	margin: 10px 0 5px;
+}
+.note{
+	width: 197px;
+	background: #bbbbbb;
+	border: 1px solid #efefef;
+	padding: 15px;
+	font-size: 12px;
+    color: #fff;
+    text-align: left;
+}
+.labels{
+	width: 197px;
+	text-align: center;
+	font-size: 11px;
+	background: #f4f4f4;
+	padding: 15px;
+	border: 1px solid #efefef;
+}
+.labels span{
+	background: #999999;
+	color: #fff;
+	padding: 2px 4px;
+	border-radius: 4px;
+	display: inline-block;
+	margin-top: 2px;
+	/*font-weight: bold;*/
+	font-size: 9px;
+}
+/*左侧侧边栏 结束*/
+
+#blog-item{
+	display: block;
+	width: 716px;
+	float: right;
+}
+#blog-item li{
+	width: 684px;
+	border: 1px solid #efefef;
+	padding: 15px;
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+.item-1 .picture{
+	width: 213px;
+	padding: 3px;
+	border: 1px solid #efefef;
+	display: inline-block;
+	background: #fff;
+}
+.item-1 .picture img{
+	width: 205px;
+	display: block;
+}
+.item-1 div{
+	width: 452px;
+}
+#blog-item h5{
+	color: #4d4d4d;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+#blog-item span{
+	color: #7c7c7c;
+	padding-right: 5px;
+}
+#blog-item p{
+	color: #7c7c7c;
+	line-height: 15px;
+	font-size: 12px;
+	margin: 15px  0 10px;
+}
+#blog-item a{
+	color: #e5412d;
+}
+.item-2 .picture{
+	width: 337px;
+	padding: 3px;
+	border: 1px solid #efefef;
+	display: inline-block;
+}
+.item-2 .picture img{
+	width: 329px;
+	display: block;
+}
+.item-2 div{
+	width: 337px;
+}
+.img-left .picture{
+	float: left;
+}
+.img-left div{
+	float: right;
+}
+.img-right .picture{
+	float: right;
+}
+.img-right div{
+	float: left;
+}
+#blog-item li:last-child{
+	background: #f4f4f4;
+}
+/*content 结束*/
